@@ -78,8 +78,8 @@ $(document).ready(function(){
   $('.banner-slider').owlCarousel({
     loop:true,
     margin:10,
-    dots: false,
-    nav:true,
+    dots: true,
+    nav:false,
     autoplay: false,
     autoplayHoverPause:true,
     animateIn:"fadeIn",
